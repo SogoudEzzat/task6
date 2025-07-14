@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+h2,
+p {
+    color: beige;
+    font-family: "Amiri", serif;
+
+}
+
+.Container {
+    background-color: black;
+    background-image: url(/img/d89b16196de7911ea69f25b14df775f2.jpg);
+    height: 300vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    overflow-x: hidden;
+
+
+
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main {
+    width: 250px;
+    height: 350px;
+    border: 7px solid #1a1a1a;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 10%;
+    align-self: auto;
+    overflow: hidden;
+    background-color: rgb(31, 14, 14, .8);
+    justify-content: center;
+    align-content: center;
+    box-shadow: 10 0 10px #571c1c50;
+    margin-top: 10%;
+    display: inline-block;
+    cursor: pointer;
+
+
+}
+
+.Container nav {
+    background-color: hsla(0, 0%, 23%, 0.9);
+    padding: 10px;
+    margin: 30px;
+    height: 60px;
+}
+
+.Container nav a {
+    color: beige;
+    margin: 0 auto;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+.Container nav a:hover {
+    color: chocolate;
+    border-bottom: 2px solid;
+}
+
+h1 {
+    color: beige;
+    margin-left: 80%;
+}
+
+h1:hover {
+    color: chocolate;
+}
+
+footer {
+    background-color: hsla(0, 0%, 23%, 0.9);
+    padding: 10px;
+    height: 200px;
+    overflow: hidden;
+}
+
+footer nav a {
+    color: beige;
+    text-decoration: none;
+
+
+}
+footer p{
+   margin: 20px;
+   padding: 20px;
+  
+     text-align: center;
+}
